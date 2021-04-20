@@ -20,7 +20,7 @@ animations = [ {
 } ]
 
 [sub_resource type="CapsuleShape2D" id=2]
-radius = 27.3255
+radius = 29.2123
 height = 13.7198
 
 [node name="Player" type="Area2D"]
@@ -37,4 +37,4 @@ animation = "up"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )
-[connection signal="body_entered" from="." to="." method="_on_player_body_entered"]
+[connection signal="body_entered" from="." to="." method="_on_Player_body_entered"]
